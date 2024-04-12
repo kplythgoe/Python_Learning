@@ -31,7 +31,7 @@ sunset = int(data["results"]["sunset"].split("T")[1].split(":")[0])
 time_now = datetime.now()
 
 my_email = "kieranplythgoe@gmail.com"
-password = "dxku jiow ulsw zdgo"
+password = "**************"
 
 searching = True
 
