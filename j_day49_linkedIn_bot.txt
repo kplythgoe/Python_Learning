@@ -1,0 +1,1 @@
+This project was a program that automatically applied for job postings on LinkedIn. Required a LinkedIn account which I do not wish to have right now.

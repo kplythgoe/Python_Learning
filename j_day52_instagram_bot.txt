@@ -1,0 +1,1 @@
+This project was a program that automatically followed accounts on Instagram. Required an Instagram account which I do not wish to have right now.

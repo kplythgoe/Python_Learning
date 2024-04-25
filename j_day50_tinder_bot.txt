@@ -1,0 +1,1 @@
+This project was a program that automatically swiped profiles on Tinder. Required a Tinder account which I do not wish to have right now.
