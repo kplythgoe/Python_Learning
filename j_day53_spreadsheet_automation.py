@@ -27,18 +27,11 @@ for index in range(len(all_properties)):
     time.sleep(2)
 
     data_input = driver.find_elements(By.CSS_SELECTOR, value=".Xb9hP input")
-    # pname = driver.find_element(By.XPATH, value='//*[@id="mG61Hd"]/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input')
-    # pprice = driver.find_element(By.XPATH, value='//*[@id="mG61Hd"]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div/div[1]/input')
-    # plink = driver.find_element(By.XPATH, value='//*[@id="mG61Hd"]/div[2]/div/div[2]/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input')
     submit_button = driver.find_element(By.XPATH, value='//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div[1]/div/span/span')
 
     data_input[0].send_keys(all_properties[index])
     data_input[1].send_keys(all_prices[index])
     data_input[2].send_keys(all_links[index])
-
-    # pname.send_keys(all_properties[index])
-    # pprice.send_keys(all_properties[index])
-    # plink.send_keys(all_properties[index])
 
     submit_button.click()
 
