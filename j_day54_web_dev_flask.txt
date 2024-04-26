@@ -1,0 +1,1 @@
+There was no challenge at the end of this section. This section was in introduction to web development with Python and more specifically Flask. Got a local server up via command prompts and learned the basics of decorator functions in Python.
